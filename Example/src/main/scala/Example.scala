@@ -1,3 +1,3 @@
-class Example {
+object Example extends App{
 
 }

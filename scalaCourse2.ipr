@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="$PROJECT_DIR$/.hydra/idea" />
+    <option name="noOfCores" value="4" />
+    <option name="projectRoot" value="$PROJECT_DIR$" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
@@ -8,10 +14,12 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/streams/.idea/modules/root.iml" filepath="$PROJECT_DIR$/streams/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/streams/.idea/modules/root-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/scalaCourse2.iml" filepath="$PROJECT_DIR$/scalaCourse2.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SbtLocalSettings">
@@ -32,7 +40,20 @@
       </map>
     </option>
   </component>
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="root">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
   <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/streams" />
+        <option name="sbtVersion" value="0.13.9" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
     <option name="maximumHeapSize" value="1500" />
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -40,6 +61,116 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="sbt: junit:junit:4.10:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/junit/junit/4.10/junit-4.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/junit/junit/4.10/junit-4.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/junit/junit/4.10/junit-4.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.hamcrest:hamcrest-core:1.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scala-lang.modules:scala-xml_2.11:1.0.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scala-lang:scala-library:2.11.7:jar" type="Scala">
+      <properties>
+        <compiler-classpath>
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/jline/jline/2.12.1/jline-2.12.1.jar" />
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar" />
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar" />
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar" />
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar" />
+          <root url="file://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar" />
+        </compiler-classpath>
+      </properties>
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scala-lang:scala-reflect:2.11.7:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scala-sbt:test-interface:1.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scalacheck:scalacheck_2.11:1.12.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalacheck/scalacheck_2.11/1.12.1/scalacheck_2.11-1.12.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalacheck/scalacheck_2.11/1.12.1/scalacheck_2.11-1.12.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalacheck/scalacheck_2.11/1.12.1/scalacheck_2.11-1.12.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="sbt: org.scalatest:scalatest_2.11:2.2.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.coursier/cache/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
   <component name="masterDetails">
     <states>
