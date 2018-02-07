@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="$PROJECT_DIR$/.hydra/idea" />
+    <option name="noOfCores" value="4" />
+    <option name="projectRoot" value="$PROJECT_DIR$" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example.iml" filepath="$PROJECT_DIR$/.idea/modules/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example-build.iml" filepath="$PROJECT_DIR$/.idea/modules/example-build.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../Example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../collaborate-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../forcomp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../funsets" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../objsets" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../patmat" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../recfun" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="example" />
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.0" />
+      </SbtProjectSettings>
+    </option>
+    <option name="maximumHeapSize" value="1500" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="libraryTable">
+    <library name="sbt: org.scala-lang:scala-library:2.12.4:jar" type="Scala">
+      <properties>
+        <compiler-classpath>
+          <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/jline.jar" />
+          <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/scala-compiler.jar" />
+          <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/scala-library.jar" />
+          <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar" />
+          <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/scala-xml_2.12.jar" />
+        </compiler-classpath>
+      </properties>
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.4/lib/scala-library.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.cache/coursier/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.cache/coursier/v1/https/artifactory.flexys.co.uk/artifactory/mvn-v-release/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
