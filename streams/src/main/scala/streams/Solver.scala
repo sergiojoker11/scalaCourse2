@@ -75,7 +75,6 @@ trait Solver extends GameDef {
       val more = for {
         path <- newNeighborsOnly(initial, explored)
       } yield path
-      more.map{case tuple => tuple._1}.toSet
       initial #::: from(more, more.map{case tuple => tuple._1}.toSet)
     }
   }
